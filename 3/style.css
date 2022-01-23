@@ -1,0 +1,86 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.all{
+      height: 930px;
+      display: flex;
+}
+.left, .right{
+      width: 50%;
+      display: flex;
+      padding-top: 10%;
+      padding-left: 10%;
+}
+#box1, #box2{
+      display: flex;
+      flex-wrap: wrap;
+      width: 450px;
+      height: 450px;
+  }
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #one2, #two2, #three2, #four2, #five2, #six2,
+#seven2, #eight2, #nine2{
+      width: 150px;
+      height: 150px;
+      outline: 3px solid rgb(191, 156, 248);
+  }
+#one{
+      background: linear-gradient(rgb(195, 0, 255), rgb(106, 23, 240));
+  }
+#two{
+      background: linear-gradient(rgb(0, 206, 52), blue);
+  }
+#three{
+      background: linear-gradient(rgb(106, 23, 240), blue);
+  }
+#four{
+      background: linear-gradient(red, rgb(48, 166, 212));
+  }
+#five{
+      background: linear-gradient(rgb(255, 238, 0), blue);
+  }
+#six{
+      background: linear-gradient(red, orange);
+  }
+#seven{
+      background: linear-gradient(rgb(48, 166, 212), rgb(0, 206, 52));
+  }
+#eight{
+      background: linear-gradient(red, rgb(195, 0, 255));
+  }
+#nine{
+      background: linear-gradient(orange, rgb(255, 238, 0));
+  }
+#one2, #two2, #three2, #four2, #five2, #six2, #seven2, #eight2, #nine2{
+      background: white;
+}
+
+
+/* #one2{
+      background: linear-gradient(red, orange);
+  }
+#two2{
+      background: linear-gradient(orange, rgb(255, 238, 0));
+  }
+#three2{
+      background: linear-gradient(rgb(255, 238, 0), blue);
+  }
+#four2{
+      background: linear-gradient(red, rgb(48, 166, 212));
+  }
+#five2{
+      background: linear-gradient(rgb(48, 166, 212), rgb(0, 206, 52));
+  }
+#six2{
+      background: linear-gradient(rgb(0, 206, 52), blue);
+  }
+#seven2{
+      background: linear-gradient(red, rgb(195, 0, 255));
+  }
+#eight2{
+      background: linear-gradient(rgb(195, 0, 255), rgb(106, 23, 240));
+  }
+#nine2{
+      background: linear-gradient(rgb(106, 23, 240), blue);
+  } */
